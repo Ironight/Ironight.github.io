@@ -1,0 +1,214 @@
+
+.navbar{
+background: aqua;
+display: flex;
+flex-direction: row;
+height: 40px;
+width: 100%;
+padding: 5px;
+
+
+}
+
+
+
+.container{
+    background: blueviolet;
+    width: 90%;
+    margin: 35px auto 0px auto;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px black solid;
+    
+}
+
+.content1{
+    background: black;
+    max-width: 50%;
+    margin: 5px auto auto 23%;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+}
+
+.flexing{
+    background: burlywood;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px black solid;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 90%;
+    margin: 15px auto auto 4%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    color: white;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    background: pink;
+    width: 90%;
+    margin: 10px auto 5px 3%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content3{
+    background: green;
+    padding: 10px;
+    margin: 15px;
+    font-size: 15px;
+    text-align: start;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    border: 3px black solid;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+}
+
+.LegalInfo{
+    bottom: 0;
+    width: 90%;
+    height: 20px;
+    background:rgb(177, 177, 177);
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 60px 60px 0 0;
+    border: 3px black solid;
+    margin: 10px auto -13px auto;
+}
+
+
+@media (min-width: 600px) {
+
+    .navbar{
+        background: aqua;
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        width: 100%;
+        padding: 5px;
+        
+        
+    }      
+        
+    .container{
+        background: blueviolet;
+        width: 90%;
+        height: 700px;
+        margin: 35px auto 0px auto;    
+        position: relative;
+        padding: 10px;
+        border-radius: 10px;
+        border: 3px black solid;    
+    }
+        
+    .content1{
+        background: black;
+        max-width: 50%;
+        margin: 5px auto auto 23%;
+        padding: 15px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 10px;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 5px yellow;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        outline-style: solid;
+        outline-color: red;
+        outline-width: thin;        
+    }
+        
+    .flexing{
+        display: flex;
+        flex-direction: row;
+        background: burlywood;
+        height: 450px;
+        padding: 5px;
+        margin: 20px;
+        border-radius: 10px;
+        border: 3px black solid;
+        outline-style: solid;
+        outline-color: red;
+        outline-width: thin;
+    }
+        
+    .content2{
+        background: black;
+        width: 90%;
+        height: 375px;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        color: white;
+        outline-style: solid;
+        outline-color: red;
+        outline-width: medium;  
+    }
+        
+    .img{
+        background: pink;
+        width: 90%;
+        height: 400px;
+        margin: 10px auto 5px 3%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+        
+    .content3{
+        background: green;
+        width: 150%;
+        padding: 10px;
+        margin: 15px;
+        font-size: 15px;
+        text-align: start;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        border: 3px black solid;
+        outline-style: solid;
+        outline-color: red;
+        outline-width: thin;
+    }
+        
+    .LegalInfo{
+        bottom: 0;
+        width: 90%;
+        height: 60px;
+        background:rgb(177, 177, 177);
+        text-align: center;
+        padding-top: 15px;
+        border-radius: 60px 60px 0 0;
+        border: 3px black solid;
+        margin: 51px auto auto auto;
+    }
+
+}
