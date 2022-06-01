@@ -1,60 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Egypt</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <title>Skaianet Systems.com/Sburb</title>
+    </head>
     <body>
-        <nav class="navbar">
-            <h1>
-                skapa en droppdown meny som visar alla andra sidor
-            </h1>
-            <button class="menu" onclick="dropdown()">knappp för dropdown meny
-                <i></i>
-            </button>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="https://www.homestuck.com/story/138" target="_blank">Home</a>
+                <a href="http://www.skaianetsystems.com/" target="_blank">Pyramids</a>
+                <a href="https://mspaintadventures.fandom.com/wiki/Sburb" target="_blank">Temple</a>
+                <a href="Reviews.html" target="_blank">Culture</a>
+                <a href="#downloadlink">Tradition</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+            </div>
+
+            <script>
+                function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+                }
+            </script>
         </nav>
         <div class="container">
+            <header class="header">
+                <img src="https://images.pexels.com/photos/2183784/pexels-photo-2183784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Two Camels eating">
+            </header>
             <main>
-                <section class="content1">
-                    <h2>
-                        Great Pyramids of Giza
-                    </h2>
-                    The origin of when the pyramids of Giza were built can be traced back to many centuries, when the king Khufu was the king of ancient Egypt. 
-                    The first pyramids were built around 2550 BC in honor of Khufu's father (Sneferu), who died in 2551 BC. 
-                    To lure more about the pyramids you can go to the culture sector.
+                <section class="flex">
+                    <div class="col-1">
+                        <p class="maintext">
+                            Egypt is located in the northeastern corner of Africa and has an area of 1 002 000 km^2.
+                            The Department of Egypt is driven as a republic.  The population is 105 000 000 citizens which a big part of lives in the outher regions of Egypt.
+                            The country's capital is Kairo, which has 9.5 million occupants. The inhabitants are mainly speaking Arabic and are mainly islamic. This is Egypts flag:
+                        </p>
+                    </div>
                 </section>
-                <div class="flexing">
-                    <section class="content2">
-                        <figure class="picture">
-                            <img class="img" src="img/Pyramids.jpg" alt="Pyramids of Giza">
-                        </figure>
-                        info about the picture
-
-
-                    </section>
-                    <section class="content3">
-                        The pyramids was the tallest structure in the world for over 3800 years with a height of 146,6 meters tall and lowest at 138,5 meters. 
-                        But was surpassed by the Lincoln Cathedral in the 1300s.
-                        <br>
-                        Inside the pyramids there are a total of 118 tombs, but still counting. 
-                        Where inside the tombs there are the royal pharaohs of ancient Egypt laid and buried.
-                        <br>
-                        <br>
-                        location where the pyramids of giza lays south west of the center of Kiror and to get where the pyramids are you can go with a taxi, 
-                        uber, a tour guide or with a private guide and driver and when you are there at the pyramids you can go inside the pyramids, 
-                        you can camel ride, you can also visit Valley Tempel, solar boat and much more.
-                    </section>
-                </div>
+                <section class="col-2">
+                    <div class="images">
+                        <a href="Sight1/index.html">
+                            <img class="url_img" src="https://images.pexels.com/photos/3689863/pexels-photo-3689863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pyramids">
+                        </a>
+                        <a href="Sight2/index.html">
+                            <img class="url_img" src="https://www.worldhistory.org/uploads/images/15345.jpg" alt="Temple">
+                        </a>
+                        <a href="Culture/index.html">
+                            <img class="url_img" src="https://live.staticflickr.com/8618/16002234989_da08a95c67_b.jpg" alt="Mummy">
+                        </a>
+                        <a href="tradition/index.html">
+                            <img class="url_img" src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/fregypt_hurghada_red_sea_0-image-kybdshiy.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ded632eb81c3f8f241b4a9f677a009d9" alt="Mosque">
+                        </a>
+                    </div>
+                    <br>
+                    Our Beta testers <a href="https://mspaintadventures.fandom.com/wiki/John_Egbert" target="_blank">John Egbert</a> and <a href="https://mspaintadventures.fandom.com/wiki/Rose_Lalonde" target="_blank">Rose Lalonde</a> were given an early copy of the game in order to provide footage and feedback of the game. The images seen <a href="#col-2">here</a> is what the final product looks like. 
+                </section>
             </main>
-            <footer class="LegalInfo">
-                våran info, cc info, källor
+            <footer class="legalstuff">
+                © 1889-2029 Skaianet Systems Incorporated.
+                <br> 
+                © 2018 Homestuck and VIZ Media. All rights reserved.
             </footer>
-        </div>
-
-        <script src="js/index.js"></script>
+            
+        </div>  
     </body>
 </html>
